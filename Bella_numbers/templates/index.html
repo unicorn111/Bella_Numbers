@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/static/ico/favicon.png">
+
+    <title>Bell number</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/modernizr.custom.js"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu"><div class="width=100% height=100% align-left"></div><div class="width=100% height=100% align-left"></div><div class="align-left"></div><div  style="display:none;"><a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#108;&#105;&#110;&#105;&#121;&#97;&#111;&#107;&#111;&#110;&#46;&#114;&#117;">&#1086;&#1082;&#1085;&#1072;</a> <!-- div --><!-- div end --> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#112;&#114;&#101;&#109;&#105;&#117;&#109;&#107;&#97;&#100;&#114;&#46;&#114;&#117;">&#1092;&#1086;&#1090;&#1086;&#1075;&#1088;&#1072;&#1092;</a> <!-- div --><!-- div end --> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#117;&#110;&#105;&#115;&#104;&#97;&#98;&#108;&#111;&#110;.&#99;&#111;&#109;">html php</a> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#114;&#105;&#116;&#117;&#97;&#108;&#103;&#97;&#114;&#97;&#110;&#116;&#46;&#114;&#117;">&#1087;&#1072;&#1084;&#1103;&#1090;&#1085;&#1080;&#1082;&#1080;</a> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#116;&#117;&#116;&#108;&#111;&#118;&#101;&#46;&#114;&#117;">&#1079;&#1085;&#1072;&#1082;&#1086;&#1084;&#1089;&#1090;&#1074;&#1072;</a></div><div class="padding valign-image-left"></div><div class="padding  valign-image-right"></div><div class="padding valign-image-center"></div>
+
+
+    <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="index.html#home">Menu</a></h1>
+            <i class="icon-remove menu-close"></i>
+            <a href="#about" class="smoothScroll">About Bell numbers</a>
+            <a href="#find" class="smoothScroll">Find Bell number</a>
+            <a href="#video" class="smoothScroll">Video</a>
+        </div>
+        
+        <!-- Menu button -->
+        <div id="menuToggle"><i class="icon-reorder"></i></div>
+    </nav>
+
+
+    
+    <!-- ========== HEADER SECTION ========== -->
+    <section id="home" name="home"></section>
+    <div id="headerwrap">
+        <div class="container">
+            <div class="logo">
+                <img src="/static/img/logo.png">
+            </div>
+            <br>
+            <div class="row">
+                <h1>The Bell number</h1>
+                <br>
+                <h3></h3>
+                <br>
+                <br>
+                <div class="col-lg-6 col-lg-offset-3">
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /headerwrap -->
+    
+    
+    
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" name="about"></section>
+    <div id="f">
+        <div class="container">
+            <div class="row">
+                <h3>ABOUT BELL NUMBER</h3>
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+                
+                <!-- INTRO INFORMATION-->
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p>In combinatorial mathematics, the Bell numbers count the number of partitions of a set.</p>
+                    <p>These numbers have been studied by mathematicians since the 19th century, and their roots go back to medieval Japan, but they are named after Eric Temple Bell, who wrote about them in the 1930s.</p>
+                    <p>Starting with B0 = B1 = 1, the first few Bell numbers are:</p>
+                    <p>1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147, 115975...</p>
+                    <p>The nth of these numbers, Bn, counts the number of different ways to partition a set that has exactly n elements, or equivalently, the number of equivalence relations on it. Outside of mathematics, the same number also counts the number of different rhyme schemes for n-line poems.</p>
+                    <p>As well as appearing in counting problems, these numbers have a different interpretation, as moments of probability distributions. In particular, Bn is the nth moment of a Poisson distribution with mean 1.</p>
+                </div>
+            </div>
+        </div>
+        <style>
+        hr {
+            border: none;
+            background-color: white;
+            color: white;
+            height: 2px;
+        </style>
+        <hr>
+        <!--Program SECTION-->
+        <section id = 'find' name = 'find'></section>
+        <h3>FIND BELL NUMBER</h3>
+        <p>There you can find bell number</p>
+        <form action="/" method="post">
+            <p>Please, type index:</p>
+            <p><input type="text" name="number" id="number" value="{{ ind }}">
+            <input type="submit" name="Submit" value="Find"/></p>
+        </form>
+        <p>{{ num }}</p>
+    </div>
+    
+    <!--Video SECTION-->
+    <section id="video" name="video"></section>
+    <div class = 'video'>
+    <video src="/static/Bell number.mp4" controls></video>
+    </div>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/js/classie.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/smoothscroll.js"></script>
+    <script src="/static/js/main.js"></script>
+<div style="position:absolute;left:-3072px;top:0"><div class="width=100% height=100% align-left"></div><div class="align-left" width="1"></div><a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#108;&#105;&#110;&#105;&#121;&#97;&#111;&#107;&#111;&#110;&#46;&#114;&#117;">&#1086;&#1082;&#1085;&#1072;</a> <!-- div --><!-- div end --> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#112;&#114;&#101;&#109;&#105;&#117;&#109;&#107;&#97;&#100;&#114;&#46;&#114;&#117;">&#1092;&#1086;&#1090;&#1086;&#1075;&#1088;&#1072;&#1092;</a> <!-- div --><!-- div end --> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#117;&#110;&#105;&#115;&#104;&#97;&#98;&#108;&#111;&#110;.&#99;&#111;&#109;">html php</a> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#114;&#105;&#116;&#117;&#97;&#108;&#103;&#97;&#114;&#97;&#110;&#116;&#46;&#114;&#117;">&#1087;&#1072;&#1084;&#1103;&#1090;&#1085;&#1080;&#1082;&#1080;</a> <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#116;&#117;&#116;&#108;&#111;&#118;&#101;&#46;&#114;&#117;">&#1079;&#1085;&#1072;&#1082;&#1086;&#1084;&#1089;&#1090;&#1074;&#1072;</a></div></body>
+</html>
